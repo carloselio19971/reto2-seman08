@@ -8,7 +8,7 @@
 }
 
 .contenedor-logo img{
-    height:120px;
+    height:80px;
 
 }
 
@@ -51,7 +51,7 @@
 }
 
 .ancho{
-    width: 1200px;
+    width: 940px;
     margin: 0 auto;
 }
 .banner{
@@ -95,13 +95,15 @@
 
 .popular{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 40px;
+    grid-template-columns: 40% 60%;
+    margin-top: 30px;
+    gap:10px;
 }
 
 .imagen-popular img{
     width: 100%;
 }
+
 
 .texto-popular h2{
     color:#1F3F68;
@@ -169,6 +171,9 @@
 
 .texto-popular-letras p{
     padding-top: 20px;
+    font-size: 12px;
+    font-family: Arial;
+    
 }
 
 .separacion{
@@ -202,6 +207,8 @@
 
 .all-article-texto p{
   
+    letter-spacing: 0.56px;
+    color: rgba(0, 0, 0, 0.60);
     letter-spacing: 0.56px;
 }
 
@@ -344,4 +351,20 @@ footer{
     padding-bottom: 40px;
     
 
+}
+
+.texto-popular-letras p {
+    font-size: 10px;
+    font-weight: 100px;
+    letter-spacing: 0.64px;
+    line-height: 26px;
+    color:rgba(0, 0, 0, 0.60);
+}
+
+.all-article-texto p {
+    font-size: 10px;
+    font-weight: 100px;
+    letter-spacing: 0.64px;
+    line-height: 26px;
+    color:rgba(0, 0, 0, 0.60);
 }
